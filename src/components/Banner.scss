@@ -1,0 +1,41 @@
+.banner {
+  background-image: url("https://img.freepik.com/free-vector/black-wallpaper-with-motion-lines-background_1017-30151.jpg");
+  height: 28rem;
+  color: white;
+  position: relative;
+}
+
+.info-wrapper {
+  position: absolute;
+  left: 40px;
+  top: 120px;
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  .play-buttons {
+
+    .play-button {
+      border: none;
+      border-radius: 4px;
+      padding: 10px 35px;
+      cursor: pointer;
+      background-color: rgba(#3a3737, 0.5);
+      color: white;
+      font-weight: 600;
+      font-size: 15px;
+    }
+
+    .play-button:first-child {
+      margin-right: 20px;
+    }
+
+    .play-button:hover {
+      background-color: white;
+      color: #3a3737;
+      transition: all 0.5s;
+    }
+  }
+
+}

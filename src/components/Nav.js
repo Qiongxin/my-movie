@@ -5,7 +5,7 @@ function Nav() {
   const [show, setShow] = useState(false)
 
   const handleShow = () => {
-    if (window.scrollY > 100) {
+    if (window.scrollY > 60) {
       setShow(true)
     } else (
       setShow(false)
@@ -23,8 +23,8 @@ function Nav() {
   
   return (
     <div className={`nav ${show && `nav-black`}`}>
-      <img className="left-img" src="https://img.freepik.com/premium-photo/orange-eyes-british-shortair-isolated-white_191971-27184.jpg?w=2000" alt="cat" />
-      <img className="right-img" src="https://e7.pngegg.com/pngimages/238/156/png-clipart-meng-pet-cat-meng-chong-kitty.png" alt="avatar" />
+      <img className="logo-img" src="https://1000logos.net/wp-content/uploads/2017/05/Netflix-Logo.png" alt="netflix logo" />
+      <img className="avatar-img" src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png" alt="avatar" />
     </div>
   )
 }
