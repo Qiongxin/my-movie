@@ -1,13 +1,14 @@
 .banner {
-  background-image: url("https://img.freepik.com/free-vector/black-wallpaper-with-motion-lines-background_1017-30151.jpg");
-  height: 28rem;
+  background-size: cover;
+  background-position: center center;
+  height: 35rem;
   color: white;
   position: relative;
 
   .shadow {
-    background-image: linear-gradient(180deg, transparent, rgba(rgb(37, 37, 37), 0.6), black );
+    background-image: linear-gradient(180deg, transparent, rgba(21, 21, 21, 0.6), rgb(13, 13, 13));
     width: 100vw;
-    height: 80px;
+    height: 100px;
     position: absolute;
     bottom: 0;
   }
@@ -16,9 +17,8 @@
 .info-wrapper {
   position: absolute;
   left: 40px;
-  top: 110px;
+  top: 130px;
   text-align: left;
-  width: 23rem;
 
   h1 {
     font-size: 3rem;
@@ -46,6 +46,10 @@
       color: #3a3737;
       transition: all 0.5s;
     }
+  }
+
+  p {
+    width: 23rem;
   }
 
 }
