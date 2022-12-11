@@ -3,7 +3,7 @@
 
   h1 {
     color: white;
-    margin-left: 10px;
+    margin: 15px 0 0 10px;
   }
   .posters {
     display: flex;
@@ -11,7 +11,7 @@
     padding: 15px 10px;
 
     .poster {
-      max-height: 160px;
+      max-height: 140px;
       width: 100%;
       margin-right: 15px;
       transition: transform 0.3s;
