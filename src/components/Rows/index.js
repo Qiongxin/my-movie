@@ -1,7 +1,7 @@
-import axios from './axios'
+import axios from '.././axios'
 import React, { useEffect, useState } from 'react'
 import "./Rows.scss"
-function Rows({title, fetchUrl, isLargeRow=false}) {
+function Rows({title, fetchUrl, isLargeRow}) {
   const [movies, setMovies] = useState([])
 
   //get the movies list from database and set to movies

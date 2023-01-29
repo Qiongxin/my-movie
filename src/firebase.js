@@ -1,3 +1,7 @@
+import { initializeApp } from "firebase/app"
+import { getAuth } from "firebase/auth"
+import { getFirestore } from "firebase/firestore"
+
 const firebaseConfig = {
     apiKey: "AIzaSyCc-_EIBKSm3iRa7SmdiYL8P0MJzO8py-o",
     authDomain: "mymovie-65075.firebaseapp.com",
@@ -6,3 +10,12 @@ const firebaseConfig = {
     messagingSenderId: "949200291626",
     appId: "1:949200291626:web:b4e12cb8f2f6e8910d8053"
   };
+
+
+  const app = initializeApp(firebaseConfig)
+
+  const auth = getAuth(app)
+
+  const db = getFirestore(app)
+
+  export { auth, db }
